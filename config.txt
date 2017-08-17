@@ -1,0 +1,6 @@
+GIT_ROOT: C:\FullPathToGitRepository\user.github.io
+GIT_EXEC: C:\FullPathToGitCommandLineExecutable\git
+PAGE_ROOT: http://www.YourWebsiteUrlNoTrailingSlash.org
+INCLUDE_EXT: html pdf
+EXCLUDE_DIR: images
+EXCLUDE_FILE: 404.html
