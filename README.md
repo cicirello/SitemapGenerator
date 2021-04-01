@@ -4,6 +4,19 @@ Command line utility for generating an xml sitemap for a website whose code is m
 Copyright (C) 2017 Vincent A. Cicirello.
 https://www.cicirello.org/
 
+## Archived and Not Maintained (effective 4/1/2021)
+
+This repository has been archived and is no longer maintained. If you find it useful, feel free to continue to use 
+it.  However, we will no longer respond to Issues or Pull Requests. If you are looking for a utility with the 
+same, or similar functionality, that is actively maintained, then consider 
+the [cicirello/generate-sitemap](https://github.com/cicirello/generate-sitemap) GitHub action, which is designed
+specifically to run as a GitHub Action, and which includes additional functionality such as automatically excluding
+urls that are blocked by `robots.txt` and noindex directives within the html files from inclusion in the sitemap.
+Although intended to run in GitHub Actions space, the [cicirello/generate-sitemap](https://github.com/cicirello/generate-sitemap)
+is really just a command-line utility, so you can use it independently from GitHub Actions if desired.
+
+## Configuration and Usage
+
 Configure the sitemap generator via the config.txt file, which supports the following:
 ```  GIT_ROOT: C:\FullPathToLocalGitRepository\user.github.io
   GIT_EXEC: C:\FullPathToGitCommand\cmd\git
